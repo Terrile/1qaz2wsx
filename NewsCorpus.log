@@ -1,0 +1,16 @@
+NewsCorpus.py [2016-11-01 14:18:04 PM] [INFO] loadding conf file
+NewsCorpus.py [2016-11-01 14:18:04 PM] [INFO] 
+dir：./data/
+dir_bkp: ./data_bkp/
+latestInterval: 7
+aveInterval: 10
+NewsCorpus.py [2016-11-01 14:18:04 PM] [WARNING] Something is wrong with back up data!
+_internal.py [2016-11-01 14:18:05 PM] [INFO]  * Running on http://0.0.0.0:8083/ (Press CTRL+C to quit)
+_internal.py [2016-11-01 14:18:10 PM] [INFO] 127.0.0.1 - - [01/Nov/2016 14:18:10] "GET /request HTTP/1.1" 200 -
+NewsCorpus.py [2016-11-01 14:18:14 PM] [INFO] begin to insert ./data\news.insert to Corpus!
+NewsCorpus.py [2016-11-01 14:18:14 PM] [INFO] ./data\news.insert -----> ./data\news.processing
+NewsCorpus.py [2016-11-01 14:18:14 PM] [INFO] insert success! inserted num 390
+NewsCorpus.py [2016-11-01 14:18:14 PM] [INFO] video corpus size 390
+NewsCorpus.py [2016-11-01 14:18:14 PM] [INFO] ./data\news.processing -----> ./data\news.done
+_internal.py [2016-11-01 14:18:14 PM] [INFO] 127.0.0.1 - - [01/Nov/2016 14:18:14] "GET /insert HTTP/1.1" 200 -
+_internal.py [2016-11-01 14:18:18 PM] [INFO] 127.0.0.1 - - [01/Nov/2016 14:18:18] "GET /request HTTP/1.1" 200 -
